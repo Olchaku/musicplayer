@@ -1,0 +1,92 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+.home_screen {
+  display: grid;
+  max-width: 100%;
+  font-family: 'Source Sans Pro', sans-serif; }
+
+.top_bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around; 
+  margin-top: 23px;
+}
+
+  .profile_info {
+    display: flex;
+  }
+  .sidebar {
+    padding-left: 25px;
+    background: #FFFFFF;
+    border: 1px solid #EEEEEE;
+    box-sizing: border-box;
+  }
+  .sidebar__listpoint {
+    list-style-type: none;
+    padding-top: 24px;
+    vertical-align: center;
+  }
+  .listpoint__text {
+    text-decoration: none;
+    color: #0F1E36;
+    opacity: 0.5;
+    font-size: 12px;
+  }
+  .sidebar__text {
+    color: #0F1E36;
+    font-size: 12px;
+    padding-top: 24px;
+  }
+  .listpoint__pic {
+  margin-right: 17px;
+  }
+  .slider {
+    background-image: url(/img/slider/Girl.png);
+  }
+ 
+/*# sourceMappingURL=home_screen.css.map */
